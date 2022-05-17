@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "utf-8">
+	<title>Adoption Form</title>
+	<style type = "text/css">
+	    .header img {
+			float: left;
+			width: 95px;
+			height: 80px;
+		}
+	    body {
+            background-image: url("../MEDIA/images/bgp.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        * {
+            box-sizing: border-box;
+        }
+	</style>
+    <link rel="icon" href="../MEDIA/images/lovestray.png" type="image/x-icon"> 
+</head>
+<body>
+	<link rel = "stylesheet" type = "text/css" href="../CSS/AdoptionFormDesign.css">
+	<!--FUERTE, MIKAELA CLODIN-->
+	<!--05/14/2022-->
+  <div class="nav">
+    <div class="header">
+        <img class="header" src="../MEDIA/images/icon.png" alt="icon">
+    </div>
+    <div align="right">
+        <a href="">HOME</a>
+        <a href="">ABOUT US</a>
+        <a href="">FIND A PET</a>
+        <a href="">OUR PETS</a>
+        <a href="">CONTACT US</a>
+        <a href="">FAQs</a>
+        <a href="">AUTHORS</a>
+        <a href=""><img src="../MEDIA/images/search.png" alt="search" class="icon"></a>
+    </div>
+</div>
+
+    <form action=" " method="GET" enctype="multipart/form-data">
+        <div align="center">
+                <fieldset>
+                    <div>
+                        <h2>ADOPTION FORM</h2>
+                        <h3>Personal Information</h3>
+                        <div align="left">
+                            <label for="fname">First Name:</label>
+                            <input type="text" name="fname" id="fname"required placeholder="Type your firstname here">
+                        </div>
+                        <div align="left">
+                            <label for="lname">Last Name:</label>
+                            <input type="text" name="lname" id="lname" required placeholder="Type your lastname here">
+                        </div>
+                        <div align="left">
+                            <label for="add">Address:</label>
+                            <input type="text" name="add" id="add" required placeholder="Type your full address here">
+                        </div>
+                        <div align="left">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" required placeholder="Email Address">
+                        </div>
+                        <div align="left">
+                            <label for="occupation">Occupation:</label>
+                            <input type="text" name="occupation" id="occupation" required>
+                        </div>
+                        <div align="left">
+                            <label for="cn">Contact Number:</label>
+                            <input type="text" name="cn" id="cn" required>
+                        </div>
+                    </div>
+
+                   <br><br><br>
+                    <div>
+                        <h3>Pet To Adopt</h3>
+                        <div align="left">
+                            <table>
+                                <tr>
+                                    <th><label for="kn">Kind:</label></th>
+                                    <td><input type="radio" name="kn" id="d" value="d"></td>
+                                    <td><label for="d">Dog</label></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><input type="radio" name="kn" id="c" value="c"></td>
+                                    <td><label for="c">Cat</label></td>
+                                </tr>
+                                <tr>
+                                    <th><label for="gen">Gender:</label></th>
+                                    <td><input type="radio" name="gen" id="f" value="f"></td>
+                                    <td><label for="f">Female</label></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><input type="radio" name="gen" id="m" value="m"></td>
+                                    <td><label for="m">Male</label></label></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div align="left">
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" id="name" required> 
+                         </div>
+                        <div align="left">
+                            <label for="br">Breed:</label>
+                            <input type="text" name="br" id="br" required>
+                        </div>
+                    </div>
+                    <br><br><br>
+                    <div>
+                        <h3>Questionnaire</h3>
+                        <div align="left">
+                            <div>
+                                <p>1. Have you adopt from Love Stay before?</p>
+                            </div>      
+                            <div>
+                                <div>
+                                    <input type="checkbox" name="adoptalready" id="yes" value="yes">
+                                    <label for="yes">Yes</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="adoptalready" id="no" value="no">
+                                    <label for="no">No</label>
+                                </div>
+                            </div>
+                            <div>
+                                <p>2. For whom are you adopting a pet?</p>
+                            </div>
+                            <div>
+                                <div>
+                                    <div>
+                                        <input type="checkbox" name="whom" id="self" value="self">
+                                        <label for="self">For myself</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="whom" id="someone" value="someone">
+                                        <label for="someone">For someone</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p>3. Do you have other pets?</p>
+                            </div>
+                            <div>
+                                <div>
+                                    <div>
+                                        <input type="checkbox" name="adoptalready" id="yes1" value="yes1">
+                                        <label for="yes1">Yes</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="adoptalready" id="no1" value="no1">
+                                        <label for="no1">No</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p>4. What type of building do you live in?</p>
+                            </div>
+                            <div>
+                                <div>
+                                    <div>
+                                        <input type="checkbox" name="house" id="house" value="house">
+                                        <label for="house">House</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="house" id="condo" value="condo">
+                                        <label for="condo">Condo</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="house" id="apartment" value="apartment">
+                                        <label for="apartment">Apartment</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" name="house" id="other" value="other">
+                                        <label for="other">Other</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p>5. Who will be responsible for feeding, grooming and caring for your pet?</p>
+                                <textarea id="comment" name="comment"></textarea>                              
+                            </div>
+                        </div>  
+                    </div>         
+                    <br><br>
+                        <p style="font-family: monospace;">Take a screenshot of this form to include in the scheduling form.</p><br>
+                        <input type="reset" value="Clear Form" />
+                        <input type="submit" value="Submit Now" />
+                </fieldset>       
+        </div>      
+</div>
+
+</body>
+</html>

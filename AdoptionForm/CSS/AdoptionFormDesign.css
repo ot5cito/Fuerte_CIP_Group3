@@ -1,0 +1,138 @@
+.header img {
+    float: left;
+    width: 100px;
+    height: 75px;
+}
+div.nav {
+    margin: .75%;
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.441);
+}
+
+img.icon {
+    float: right;
+    margin-right: 2%;
+    padding: 0%;
+}
+img.header {
+    top: 20px;
+    float: left;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+    font-family: Helvetica;
+}
+a:hover {
+    color: aqua;
+}
+label{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    vertical-align: middle;
+    margin: 10px;
+    max-width: 50%
+}
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    
+}
+h3{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.2em;
+}
+
+
+fieldset{
+    padding: 3%;
+    margin:25px;
+    height:auto;
+    max-width: 50%;
+    border: 3px solid rgb(34, 92, 0);
+    background-color: rgb(175, 235, 141);
+}
+button{
+    font-size: 1em;
+}
+
+input[type="text"], [type="email"]{
+    padding:10px;
+    min-width: 50%;
+    font-size: 1em;
+    margin: 10px 0 ;
+    vertical-align: middle;
+    border:1px solid #555;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 3px;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.7em;
+}
+input[type="checkbox"]{
+    height: 15px;
+    width: 25px;
+    vertical-align: middle;
+}
+textarea{
+    min-height: 4em;
+    min-width: 80%;
+    padding: .5em;
+    border: solid 1px #999;
+    border-radius: 4px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    margin-right:.5em;
+    resize:none;
+}
+input[type="submit"]{
+    width: 45%;
+    background-color: rgb(13, 118, 16);
+    opacity: 0.75;
+    color: whitesmoke;
+    padding: 8px 10px;
+    cursor:pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;  
+    margin-right: 20px;
+}
+input[type="submit"]:hover{
+    width: 45%;
+    background-color: rgb(13, 118, 16);
+    opacity: 1;
+    color: whitesmoke;
+    padding: 8px 10px;
+    cursor:pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;  
+    margin-right: 20px;
+}
+input[type="reset"]{
+    width: 45%;
+    background-color: rgb(177, 14, 14);
+    opacity: 0.75;
+    color: whitesmoke;
+    padding: 8px 10px;
+    cursor:pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;  
+}
+input[type="reset"]:hover{
+    width: 45%;
+    background-color: rgb(177, 14, 14);
+    opacity: 1;
+    color: whitesmoke;
+    padding: 8px 10px;
+    cursor:pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;  
+}

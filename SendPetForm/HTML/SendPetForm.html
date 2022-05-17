@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "utf-8">
+	<title>Send a Pet Form</title>
+	<style type = "text/css">
+	    .header img {
+			float: left;
+			width: 95px;
+			height: 80px;
+		}
+	    body {
+            background-image: url("../MEDIA/images/bgp.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        * {
+            box-sizing: border-box;
+        }
+	</style>
+    <link rel="icon" href="../MEDIA/images/lovestray.png" type="image/x-icon"> 
+</head>
+<body>
+	<link rel = "stylesheet" type = "text/css" href="../CSS/SendPetDesign.css">
+	<!--FUERTE, MIKAELA CLODIN-->
+	<!--05/14/2022-->
+  <div class="nav">
+    <div class="header">
+        <img class="header" src="../MEDIA/images/icon.png" alt="icon">
+    </div>
+    <div align="right">
+        <a href="">HOME</a>
+        <a href="">ABOUT US</a>
+        <a href="">FIND A PET</a>
+        <a href="">OUR PETS</a>
+        <a href="">CONTACT US</a>
+        <a href="">FAQs</a>
+        <a href="">AUTHORS</a>
+        <a href=""><img src="../MEDIA/images/search.png" alt="search" class="icon"></a>
+    </div>
+</div>
+<form action=" " method="GET" enctype="multipart/form-data">
+    <div align="center">
+            <fieldset>
+                <div>
+                    <h2>SENDING FORM</h2>
+                    <h3>Personal Information</h3>
+                    <div align="left">
+                        <label for="fname">First Name:</label>
+                        <input type="text" name="fname" id="fname"required placeholder="Type your firstname here">
+                    </div>
+                    <div align="left">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" name="lname" id="lname" required placeholder="Type your lastname here">
+                    </div>
+                    <div align="left">
+                        <label for="add">Address:</label>
+                        <input type="text" name="add" id="add" required placeholder="Type your full address here">
+                    </div>
+                    <div align="left">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required placeholder="Email Address">
+                    </div>
+
+                    <div align="left">
+                        <label for="cn">Contact Number:</label>
+                        <input type="text" name="cn" id="cn" required>
+                    </div>
+                </div>
+               <br><br><br>
+                <div>
+                    <h3>Pet To Adopt</h3>
+                    <div align="left">
+                        <table>
+                            <tr>
+                                <th><label for="kn">Kind:</label></th>
+                                <td><input type="radio" name="kn" id="d" value="d"></td>
+                                <td><label for="d">Dog</label></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><input type="radio" name="kn" id="c" value="c"></td>
+                                <td><label for="c">Cat</label></td>
+                            </tr>
+                            <tr>
+                                <th><label for="gen">Gender:</label></th>
+                                <td><input type="radio" name="gen" id="f" value="f"></td>
+                                <td><label for="f">Female</label></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><input type="radio" name="gen" id="m" value="m"></td>
+                                <td><label for="m">Male</label></label></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div align="left">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" required> 
+                     </div>
+                    <div align="left">
+                        <label for="br">Breed:</label>
+                        <input type="text" name="br" id="br" required>
+                    </div>
+                    <div align="left">
+                        <label for="age">Age:</label>
+                        <input type="text" name="age" id="age" required>
+                    </div>
+                    <div align="left">
+                        <label for="info">Health Information:</label>
+                        <input type="text" name="info" id="info" required>
+                    </div>
+                    <div align="left">
+                        <label for="sz">Weight:</label>
+                        <input type="text" name="sz" id="sz" required>
+                    </div>
+                </div>
+                <br><br>
+                        <div align="left">
+                            <p>&nbsp&nbspReasons for sending the pet.</p>
+                            <textarea id="comment" name="comment"></textarea>                              
+                        </div>
+                        <br><br>
+                        <input type="reset" value="Clear Form" />
+                    <input type="submit" value="Submit Now" />
+                    </div>   
+                </div>           
+            </fieldset>       
+    </div>      
+
+</body>
+</html>
